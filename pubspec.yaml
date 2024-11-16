@@ -8,8 +8,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: ^4.6.5 # Versi GetX terbaru saat ini
-  # Tambahkan package lain jika diperlukan
+  get: ^4.6.6
+  camera: ^0.9.4+5
+  image_picker: ^1.0.8 # Versi terbaru dari image_picker
+  video_player: ^2.9.1
 
 dev_dependencies:
   flutter_test:
@@ -18,7 +20,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Tambahkan aset yang digunakan dalam aplikasi
- 
-

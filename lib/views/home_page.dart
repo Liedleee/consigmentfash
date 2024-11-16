@@ -137,7 +137,7 @@ class HomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Arahkan ke halaman SellPage saat tombol ditekan
-          Get.to(() => SellPage());
+          Get.to(() => SellProductPage());
         },
         backgroundColor: Colors.blueAccent,
         child: Icon(Icons.sell), // Ganti ikon menjadi ikon jual
