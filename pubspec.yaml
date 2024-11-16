@@ -1,0 +1,24 @@
+name: ecommerce_app
+description: A simple e-commerce app using Flutter and GetX.
+
+# Versi Flutter minimal yang diperlukan
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5 # Versi GetX terbaru saat ini
+  # Tambahkan package lain jika diperlukan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Tambahkan aset yang digunakan dalam aplikasi
+ 
+
