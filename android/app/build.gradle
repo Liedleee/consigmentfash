@@ -41,5 +41,5 @@ android {
 }
 
 flutter {
-    source = "../.."
+    source = "C:\\Mobilee\\ecommerce_app"
 }
